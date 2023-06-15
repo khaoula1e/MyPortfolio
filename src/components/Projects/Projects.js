@@ -22,6 +22,7 @@ function Projects() {
         <p className="project-description">
           Here are a few projects I've worked on recently
         </p>
+        
         <div className="row2">
           <div className="col-md-4k project-card">
             <ProjectCard
@@ -74,6 +75,7 @@ The app, powered by React.js and Spring Boot, enables customers to connect with 
             />
           </div>
         </div>
+              <h3 className="hire" style={{ fontSize: "2.6em", textAlign: "center", position: "relative" }}><a href="https://drive.google.com/file/d/152wiTGZfoVlMUt712AZMHX1pveW1hRzN/view?usp=sharing">Discover my resume</a></h3>
       </div>
     </div>
   );

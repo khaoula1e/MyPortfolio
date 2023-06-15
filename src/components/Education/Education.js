@@ -68,6 +68,7 @@ const Education = () => {
           </VerticalTimeline>
         </div>
       </div>
+      <h3 className="cv" style={{ fontSize: "2.6em", textAlign: "center", position: "relative" }}><a href="https://drive.google.com/file/d/152wiTGZfoVlMUt712AZMHX1pveW1hRzN/view?usp=sharing">Discover my resume</a></h3>
     </div>
   );
 };

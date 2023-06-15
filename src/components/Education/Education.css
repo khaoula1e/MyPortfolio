@@ -132,3 +132,16 @@
 .vertical-timeline-element-subtitle {
   color: rgb(26, 26, 87);
 }
+.cv a{
+    display: inline-block;
+    background: rgb(26, 26, 87);
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid rgb(26, 26, 87);
+    box-shadow: rgb(207, 207, 216);
+    transition: all 0.3s ease;
+}
