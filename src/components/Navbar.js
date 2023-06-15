@@ -28,10 +28,10 @@ function Navbar() {
     <>
       <div className={`navbar ${isHomePage && scroll ? "sticky" : ""} ${!isHomePage ? "blue" : ""}`}>
   <div className="max-width">
-    <div className="logo">
-      <a href="#">
-        <span>Khaoula ELFATIMI</span>
-      </a>
+          <div className="logo">
+            <Link to="/">
+          <span>Khaoula ELFATIMI</span>
+        </Link>
     </div>
     <ul className="menu">
       <li>
