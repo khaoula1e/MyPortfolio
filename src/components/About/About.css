@@ -1,8 +1,9 @@
 .about {
   background-color: #f9f9f9;
   padding: 60px 0;
-  margin-top: 80px; /* Add margin-top to create space from the top (considering the navbar height) */
-  margin-bottom: 80px; /* Add margin-bottom to create space from the bottom (considering the footer height) */
+  /* background-image: url("../../assets/projects/bg.jpg");
+  margin-bottom: 30px; */
+ /* Add margin-bottom to create space from the bottom (considering the footer height) */
 }
 
 .container {
@@ -19,7 +20,11 @@
   font-size: 2.1em;
   padding-bottom: 20px;
   color: #333;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .about-card {
   display: flex;
@@ -56,16 +61,14 @@
 }
 
 .about-card__text {
-  color: #666;
+  font-style: italic;
+  border-left: 4px solid #333;
+  padding-left: 15px;
 }
 
-@media (max-width: 768px) {
-  .about-card {
-    flex-direction: column;
-  }
 
-  .about-card__image {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
+.about-card__list {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #666;
 }
