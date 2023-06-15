@@ -7,7 +7,11 @@ const About = () => {
     <section className="about">
       <div className="container">
         <div className="about-content">
-          <h1 className="about-title">Know Who I Am</h1>
+          <h1 style={{ fontSize: "2.6em", textAlign: "center", position: "relative", margin: "0 auto", marginBottom: "10px", marginTop: "0px" }}>
+  Know <span className="purple"> Who I am </span> 
+  <span className="underline" />
+</h1>
+
           <div className="about-card">
             <div className="about-card__image">
               <img src={img} alt="About" />

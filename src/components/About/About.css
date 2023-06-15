@@ -1,5 +1,10 @@
 .about {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+  background: radial-gradient(
+    827px at 47.3% 48%,
+    rgb(255, 255, 255) 0%,
+    rgb(138, 192, 216) 90%
+  );
   padding: 60px 0;
   /* background-image: url("../../assets/projects/bg.jpg");
   margin-bottom: 30px; */
@@ -10,6 +15,11 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+.container h1{
+  text-align: center;
 }
 
 .about-content {

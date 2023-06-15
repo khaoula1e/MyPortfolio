@@ -13,7 +13,10 @@ function ProjectCards(props) {
         <Card.Title className="text-center">{props.title}</Card.Title>
         <Card.Text className="project-card-text">{props.description}</Card.Text>
         <div className="btn-container">
-          <Button variant="primary" href={props.ghLink} target="_blank">
+          <Button variant="primary"
+            href={props.ghLink}
+            target="_blank"
+          style={{ marginLeft: "10px", padding: "5px 10px" }}>
             <BsGithub /> &nbsp;
             {props.isBlog ? "Blog" : "GitHub"}
           </Button>
@@ -22,7 +25,7 @@ function ProjectCards(props) {
               variant="primary"
               href={props.demoLink}
               target="_blank"
-              style={{ marginLeft: "10px" }}
+              style={{ marginLeft: "10px", padding: "5px 10px" }}
             >
               <CgWebsite /> &nbsp;
               {"Demo"}

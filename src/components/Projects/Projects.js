@@ -22,8 +22,8 @@ function Projects() {
         <p className="project-description">
           Here are a few projects I've worked on recently
         </p>
-        <div className="row">
-          <div className="col-md-4 project-card">
+        <div className="row2">
+          <div className="col-md-4k project-card">
             <ProjectCard
               imgPath={parcauto}
               isBlog={false}
@@ -33,7 +33,7 @@ function Projects() {
               demoLink="https://parcauto.vercel.app/"
             />
           </div>
-          <div className="col-md-4 project-card">
+          <div className="col-md-4k project-card">
             <ProjectCard
               imgPath={edushare}
               isBlog={false}
@@ -42,7 +42,7 @@ function Projects() {
               ghLink="https://github.com/khaoula1e/EduShare.git"
             />
           </div>
-          <div className="col-md-4 project-card">
+          <div className="col-md-4k project-card">
             <ProjectCard
               imgPath={askricall}
               isBlog={false}
@@ -52,7 +52,7 @@ The app, powered by React.js and Spring Boot, enables customers to connect with 
               ghLink="https://github.com/khaoula1e/Bricall.git"
             />
           </div>
-          <div className="col-md-4 project-card">
+          <div className="col-md-4k project-card">
             <ProjectCard
               imgPath={bruteforce}
               isBlog={false}
@@ -63,7 +63,7 @@ The app, powered by React.js and Spring Boot, enables customers to connect with 
               // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </div>
-          <div className="col-md-4 project-card">
+          <div className="col-md-4k project-card">
             <ProjectCard
               imgPath={eventdiscovery}
               isBlog={false}
