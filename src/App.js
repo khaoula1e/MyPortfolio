@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import Navbar from './components/Navbar'
 import {
@@ -12,6 +12,7 @@ import Home from './components/Home/Home';
 import Footer from './components/Footer';
 import Projects from './components/Projects/Projects';
 import Education from './components/Education/Education';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
       <Footer/>
     </Router>
