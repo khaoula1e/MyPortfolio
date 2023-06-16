@@ -90,7 +90,6 @@ section .title::after{
   background-color: rgb(20, 147, 220);
 }
 
-
 .navbar.sticky {
   padding: 15px 0;
   background: rgb(20, 147, 220);
@@ -125,6 +124,7 @@ section .title::after{
   list-style: none;
   display: inline-block;
 }
+
 .navbar .menu li a {
   display: block;
   color: #fff;
@@ -133,6 +133,7 @@ section .title::after{
   margin-left: 25px;
   transition: color 0.3s ease;
 }
+
 .home-page .navbar .menu li a {
   display: block;
   color: #ffffff;
@@ -162,6 +163,34 @@ section .title::after{
   font-family: 'Ubuntu', sans-serif;
   transition: all 0.3s ease;
 }
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .navbar .menu {
+    display: none;
+  }
+  
+  .navbar .menu.open {
+    display: block;
+  }
+  
+  .navbar .menu li {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .navbar .menu li a {
+    margin-left: 0;
+  }
+  
+  .navbar .menu-icon {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+
 
 /* menu btn styling */
 .menu-btn{
