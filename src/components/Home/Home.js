@@ -28,7 +28,7 @@ function Home() {
                 <Type />
               </div>
             </div>
-            <a href="#">Hire me</a>
+            <a href="contact">Hire me</a>
           </div>
         </div>
       </section>
