@@ -12,7 +12,7 @@ function Skills() {
   return (
     <Container fluid className="about-section">
       <Container>
-        <h1 style={{ fontSize: "2.6em", textAlign: "center", position: "relative", margin: "0 auto", marginBottom: "10px", marginTop: "0px" }}>
+        <h1 style={{ fontSize: "2.6em", textAlign: "center", position: "relative", margin: "0 auto", marginBottom: "50px"}}>
    Professional<span className="purple"> Skillset </span>
   <span className="underline" />
         </h1>

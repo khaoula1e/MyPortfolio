@@ -2,7 +2,7 @@
   padding: 60px 0;
   background: radial-gradient(
     827px at 47.3% 48%,
-    rgb(255, 255, 255) 0%,
+    rgb(216, 250, 255) 0%,
     rgb(138, 192, 216) 90%
   );
   align-items: center;
@@ -15,6 +15,7 @@
   justify-content: center;
   flex-direction: column;
   margin-bottom: 50px;
+  /* margin-top: 60px; */
 }
 
 .education-section {
@@ -44,7 +45,7 @@
   color: #fff;
   text-align: center;
   padding: 10px;
-  background-color: #062f4f;
+  background-color: #007d93;
   border-radius: 5px;
 }
 
@@ -126,19 +127,19 @@
 }
 
 .vertical-timeline-element-subtitle {
-  color: rgb(26, 26, 87);
+  color: #007d93;
 }
 
 .cv a {
   display: inline-block;
-  background: rgb(26, 26, 87);
+  background: #007d93;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid rgb(26, 26, 87);
+  border: 2px solid #007d93;
   box-shadow: rgb(207, 207, 216);
   transition: all 0.3s ease;
 }
@@ -147,16 +148,16 @@
   .education-content {
     padding: 40px 0;
   }
-  
+
   .education-section {
     flex-direction: column;
   }
-  
+
   .education-image,
   .education-quote {
     flex-basis: 100%;
   }
-  
+
   .education-quote {
     padding: 0 20px;
   }

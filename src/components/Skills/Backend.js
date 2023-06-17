@@ -6,6 +6,7 @@ import { SiSpring } from 'react-icons/si';
 import { AiFillApi } from 'react-icons/ai';
 import { DiPhp } from 'react-icons/di';
 import { BsArrowRightShort } from 'react-icons/bs';
+import { SiNextdotjs } from "react-icons/si";
 
 function Backend() {
   const [tooltipText, setTooltipText] = useState(""); // State to store the tooltip text
@@ -38,7 +39,7 @@ function Backend() {
         {tooltipText === "PHP" && <span className="tooltip">{tooltipText}</span>}
       </div>
       <div className="tech-icon" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} data-tool="Next.js">
-        <span><BsArrowRightShort /></span>
+        <span><SiNextdotjs /></span>
         {tooltipText === "Next.js" && <span className="tooltip">{tooltipText}</span>}
       </div>
     </div>

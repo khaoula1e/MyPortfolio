@@ -19,7 +19,7 @@
 }
 
 .home-about-description .purple {
-  color: #4b86b4;
+  color: rgb(70, 158, 180);
 }
 
 .home-about-body {
@@ -49,11 +49,13 @@
 }
 
 .home-about-social .purple {
-  color: #3b5998;
+  color: rgb(70, 158, 180);
+  font-weight: bold;
 }
 
 .home-about-social h1 {
   font-size: 2.2em;
+  color: rgb(70, 158, 180);
 }
 
 .home-about-social p {
@@ -95,6 +97,8 @@
   background: #b5c3ce !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  border: #097487;
+  box-shadow: 0 0 15px #094f5c;
 }
 
 .home-social-icons::before {
@@ -129,18 +133,18 @@
 }
 
 .icon-colour {
-  color: #3385c6 !important;
+  color: #097487 !important;
 }
-.contact .title::after{
-    content: "get in touch";
+.contact .title::after {
+  content: "get in touch";
 }
-.contact .contact-content .column{
-    width: calc(50% - 30px);
+.contact .contact-content .column {
+  width: calc(50% - 30px);
 }
-.contact .contact-content .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
+.contact .contact-content .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 .underline {
   position: absolute;
@@ -149,5 +153,5 @@
   transform: translateX(-50%);
   width: 100px;
   height: 3px;
-  background: linear-gradient(to right, #4b86b4 50%, transparent 50%);
+  /* background: linear-gradient(to right, rgb(16, 43, 49) 50%, transparent 50%); */
 }

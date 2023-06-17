@@ -1,9 +1,8 @@
 .about-section {
   position: relative;
-  padding-top: 150px;
+  padding-top: 15px;
   padding-bottom: 30px;
-    background: radial-gradient(827px at 47.3% 48%,#86a8e7, #91eae4);
-
+  background: radial-gradient(827px at 47.3% 48%, #86a8e7, rgb(150, 198, 211));
   color: rgb(228, 226, 226);
 }
 
@@ -17,7 +16,7 @@
   font-size: 4.5em;
   margin: 15px;
   padding: 10px;
-    align-self: center;
+  align-self: center;
   opacity: 0.93;
   border: 2.5px solid rgba(21, 132, 160, 0.637);
   vertical-align: middle;

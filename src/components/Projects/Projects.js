@@ -14,7 +14,7 @@ function Projects() {
       <Particle />
       <div className="container">
         <h1 style={{ fontSize: "2.6em", textAlign: "center", position: "relative" }}>
-      My Recent <span className="purple"> Works </span> 
+      My Recent <span className="unique"> Works </span> 
       <span
         className="underline"
       />

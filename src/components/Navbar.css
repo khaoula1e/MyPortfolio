@@ -2,10 +2,11 @@
 .navbar {
   width: 100%;
   z-index: 999;
-  padding: 15px 0 15px;
+  padding: 15px 0;
   font-family: 'Ubuntu', sans-serif;
   transition: all 0.3s ease;
 }
+
 
 .navigation {
   position: relative;
@@ -20,12 +21,13 @@
 }
 
 .navbar.blue {
-  background-color: rgb(20, 147, 220);
+  background-color: rgb(70, 158, 180);
+  
 }
 
 .navbar.sticky {
   padding: 15px 0;
-  background: rgb(20, 147, 220);
+  background: rgb(70, 158, 180);
 }
 
 .navbar .max-width {
@@ -85,12 +87,19 @@
 }
 
 .navbar.scroll {
-  background-color: rgb(20, 147, 220);
+  background-color: rgb(70, 158, 180);
 }
 
-.home-page .navbar {
+/* .home-page .navbar {
   position: fixed;
   width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+} */
+.home-page .navbar {
+  position: fixed;
   z-index: 999;
   padding: 30px 0;
   font-family: 'Ubuntu', sans-serif;
@@ -153,7 +162,7 @@
   width: 100%;
 }
 
-.hamburger {
+.responsive {
   border: 0;
   height: 40px;
   width: 40px;
@@ -278,4 +287,20 @@
 
 .navigation-menu.expanded li:hover {
   background-color: rgb(181, 209, 235);
+}
+/* Additional Styles for Less than 200px Width */
+@media (max-width: 200px) {
+  .hamburger {
+    right: 10px;
+  }
+  
+  .navigation-menu ul {
+    top: 40px;
+    height: calc(100vh - 40px);
+  }
+  
+  .navigation-menu.expanded ul {
+    top: 40px;
+    height: calc(100vh - 40px);
+  }
 }

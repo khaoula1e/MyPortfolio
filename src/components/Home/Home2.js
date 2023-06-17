@@ -58,11 +58,11 @@ function Home2() {
               </i>
               <br />
               <br />
-              I enjoy creating innovative and user-friendly web experiences using <b className="purple">React.js</b> and
+              I enjoy creating innovative and user-friendly web experiences using <b className="purple">React.js</b> and other
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript Libraries and Frameworks
                 </b>
               </i>
             </p>

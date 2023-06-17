@@ -19,11 +19,11 @@
   transform: translateX(-50%);
   width: 100px;
   height: 3px;
-  background: linear-gradient(to right, #4b86b4 50%, transparent 50%);
+  background: linear-gradient(to right, rgb(70, 158, 180) 50%, transparent 50%);
 }
 
-.purple {
-  color: #4b86b4;
+.unique {
+  color: rgb(70, 158, 180);
 }
 
 .container {
@@ -155,7 +155,7 @@
   margin-top: 10px;
   padding: 10px;
 }
- .hire a {
+.hire a {
   display: inline-block;
   background: rgb(20, 147, 220);
   color: #fff;
@@ -167,7 +167,7 @@
   border-radius: 6px;
   border: 2px solid rgb(20, 147, 220);
   transition: all 0.3s ease;
-  
+
   /* Centering styles */
   /* position: absolute;
   left: 50%;

@@ -28,7 +28,7 @@ const Education = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="2021 - Present"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              iconStyle={{ background: '#FFD95A', color: '#fff' }}
               icon={<FaGraduationCap />}
             >
               <h3 className="vertical-timeline-element-title">Advanced Software Engineering for Digital Services (ASEDS)</h3>
@@ -40,7 +40,7 @@ const Education = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="2019 - 2021"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              iconStyle={{ background: '#FFD95A', color: '#fff' }}
               icon={<FaGraduationCap />}
             >
               <h3 className="vertical-timeline-element-title">Mathematics, Physics, and Engineering Sciences</h3>
@@ -52,7 +52,7 @@ const Education = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="2019"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              iconStyle={{ background: '#FFD95A', color: '#fff' }}
               icon={<FaGraduationCap />}
             >
               <h3 className="vertical-timeline-element-title">Mathematical Sciences</h3>
@@ -62,7 +62,7 @@ const Education = () => {
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              iconStyle={{ background: 'rgb(5, 6, 49)', color: '#fff' }}
+              iconStyle={{ background: '#3c8f92', color: '#fff' }}
               icon={<AiFillStar />}
             />
           </VerticalTimeline>

@@ -2,13 +2,13 @@
   /* background-color: #f9f9f9; */
   background: radial-gradient(
     827px at 47.3% 48%,
-    rgb(255, 255, 255) 0%,
+    rgb(221, 245, 255) 0%,
     rgb(138, 192, 216) 90%
   );
   padding: 60px 0;
   /* background-image: url("../../assets/projects/bg.jpg");
   margin-bottom: 30px; */
- /* Add margin-bottom to create space from the bottom (considering the footer height) */
+  /* Add margin-bottom to create space from the bottom (considering the footer height) */
 }
 
 .container {
@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: center;
 }
-.container h1{
+.container h1 {
   text-align: center;
 }
 
@@ -34,7 +34,6 @@
   align-items: center;
   justify-content: center;
 }
-
 
 .about-card {
   display: flex;
@@ -78,7 +77,6 @@
   font-style: italic;
 }
 
-
 .about-card__list {
   list-style-type: disc;
   margin-left: 20px;
@@ -106,8 +104,6 @@
   justify-content: center;
 }
 
-
-
 form {
   display: flex;
   flex-direction: column;
@@ -115,17 +111,17 @@ form {
   height: auto;
   padding: 30px;
 }
- .resume a{
-    display: inline-block;
-    background: #4c5693;
-    color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 50px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid #4c5693;
-    transition: all 0.3s ease;
+.resume a {
+  display: inline-block;
+  background: #5c6cb4;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 50px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid #5c6cb4;
+  transition: all 0.3s ease;
 }
 
 /* Styles for screens smaller than 1200px */
@@ -133,12 +129,12 @@ form {
   .container {
     padding: 0 15px;
   }
-  
+
   .about-card {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .about-card__image {
     margin-right: 0;
     margin-bottom: 20px;
@@ -150,20 +146,20 @@ form {
   .about-title {
     font-size: 1.8em;
   }
-  
+
   .about-card__title {
     font-size: 1.5em;
   }
-  
+
   .about-card__list {
     margin-left: 0;
   }
-  
+
   .contact {
     flex-direction: column;
     height: auto;
   }
-  
+
   .contact .leftSide {
     flex: initial;
     height: 300px;
@@ -174,15 +170,15 @@ form {
   .about-title {
     font-size: 1.2em;
   }
-  
+
   .about-card__title {
     font-size: 1em;
   }
-  
+
   .about-card__text {
     font-size: 0.9em;
   }
-  
+
   .about-card__list {
     font-size: 0.8em;
   }
@@ -193,19 +189,19 @@ form {
   body {
     font-size: 6px;
   }
-  
+
   .about-title {
     font-size: 0.8em;
   }
-  
+
   .about-card__title {
     font-size: 0.7em;
   }
-  
+
   .about-card__text {
     font-size: 0.6em;
   }
-  
+
   .about-card__list {
     font-size: 0.5em;
   }
