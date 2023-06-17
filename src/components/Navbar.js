@@ -28,6 +28,12 @@ function Navbar() {
     setMenuOpen(!menuOpen);
   };
 
+  const handleLinkClick = () => {
+    if (isNavExpanded) {
+      setIsNavExpanded(false);
+    }
+  };
+
   return (
     <>
       <div
@@ -35,7 +41,7 @@ function Navbar() {
       >
         <div className="max-width">
           <div className="logo">
-            <Link to="/">
+            <Link to="/" onClick={handleLinkClick}>
               <span>Khaoula ELFATIMI</span>
             </Link>
           </div>
@@ -50,34 +56,31 @@ function Navbar() {
           <div className={`navigation-menu ${isNavExpanded ? "expanded" : ""}`}>
             <ul className={`menu ${isNavExpanded ? "open" : ""}`}>
               <li>
-                <Link to="/" className="menu-btn">
+                <Link to="/" className="menu-btn" onClick={handleLinkClick}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="menu-btn">
+                <Link to="/about" className="menu-btn" onClick={handleLinkClick}>
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/education" className="menu-btn">
+                <Link to="/education" className="menu-btn" onClick={handleLinkClick}>
                   Education
                 </Link>
               </li>
               <li>
-                <Link to="/skills" className="menu-btn">
+                <Link to="/skills" className="menu-btn" onClick={handleLinkClick}>
                   Skills
                 </Link>
               </li>
               <li>
-                <Link to="/projects" className="menu-btn">
+                <Link to="/projects" className="menu-btn" onClick={handleLinkClick}>
                   Projects
                 </Link>
               </li>
             </ul>
-          </div>
-          <div className="menu-btn" onClick={handleMenuToggle}>
-            <i className="fas fa-bars"></i>
           </div>
         </div>
       </div>
