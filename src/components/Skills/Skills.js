@@ -12,8 +12,8 @@ function Skills() {
   return (
     <Container fluid className="about-section">
       <Container>
-        <h1 style={{ fontSize: "2.6em", textAlign: "center", position: "relative", margin: "0 auto", marginBottom: "50px"}}>
-   Professional<span className="purple"> Skillset </span>
+        <h1 style={{ fontSize: "2.6em", textAlign: "center",color: "rgb(3, 57, 65)", position: "relative", margin: "0 auto", marginBottom: "50px",marginTop:"50px"}}>
+   Professional<span className="unique"> Skillset </span>
   <span className="underline" />
         </h1>
         <h2 style={{  textAlign: "center", position: "relative", margin: "0 auto", marginBottom: "10px", marginTop: "0px" }}>Programming Languages</h2>
@@ -26,8 +26,8 @@ function Skills() {
         <Bd />
         <h2 style={{  textAlign: "center", position: "relative", margin: "0 auto", marginBottom: "10px", marginTop: "0px" }}>DevOps</h2>
         <DevOps/>
-              <h1 style={{ fontSize: "2.6em", textAlign: "center", position: "relative", margin: "0 auto", marginBottom: "10px", marginTop: "0px" }}>
-   <span className="purple"> Tools </span> I use
+              <h1 style={{ fontSize: "2.6em", textAlign: "center",color: "rgb(3, 57, 65)", position: "relative", margin: "0 auto", marginBottom: "10px", marginTop: "0px" }}>
+   <span className="unique"> Tools </span> I use
   <span className="underline" />
 </h1>
         <Toolstack />
