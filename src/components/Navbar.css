@@ -103,9 +103,15 @@
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
+.navbar.blue {
+  background-color: rgb(70, 158, 180);
+    padding: 5px 0;
+    /* margin-bottom: 2px; */
+
+}
 
 /* Add the following styles to adjust margin on different pages */
-.navbar.blue:not(.sticky) .menu li a {
+.navbar.blue .menu li a {
   margin-top: 10px;
 }
 
