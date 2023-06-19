@@ -3,10 +3,9 @@
   width: 100%;
   z-index: 999;
   padding: 15px 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
-
 
 .navigation {
   position: relative;
@@ -22,7 +21,6 @@
 
 .navbar.blue {
   background-color: rgb(70, 158, 180);
-  
 }
 
 .navbar.sticky {
@@ -102,7 +100,7 @@
   position: fixed;
   z-index: 999;
   padding: 30px 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
 
@@ -120,20 +118,20 @@
   .navbar .menu {
     display: none;
   }
-  
+
   .navbar .menu.open {
     display: block;
   }
-  
+
   .navbar .menu li {
     display: block;
     margin-top: 10px;
   }
-  
+
   .navbar .menu li a {
     margin-left: 0;
   }
-  
+
   .navbar .menu-icon {
     display: block;
     color: #fff;
@@ -168,7 +166,7 @@
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #283b8b;
+  background-color: #158192;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -178,12 +176,12 @@
   display: none;
 }
 
-.hamburger:hover {
-  background-color: #2642af;
+.responsive:hover {
+  background-color: #2ac2d7;
 }
 
-@media screen and (max-width: 550px) {
-  .hamburger {
+@media screen and (max-width: 950px) {
+  .responsive {
     display: block;
   }
 
@@ -270,7 +268,7 @@
   left: 0;
   width: 100%;
   height: calc(100vh - 60px);
-  background-color: rgb(92, 143, 202);
+  background-color: #097487;
   border-top: 1px solid black;
 }
 
@@ -289,18 +287,25 @@
   background-color: rgb(181, 209, 235);
 }
 /* Additional Styles for Less than 200px Width */
-@media (max-width: 200px) {
-  .hamburger {
+@media (max-width: 950px) {
+  .responsive {
     right: 10px;
   }
-  
+
   .navigation-menu ul {
     top: 40px;
     height: calc(100vh - 40px);
   }
-  
+
   .navigation-menu.expanded ul {
     top: 40px;
     height: calc(100vh - 40px);
+  }
+}
+
+
+@media (max-width: 550px) {
+  .responsive {
+    display: block;
   }
 }
