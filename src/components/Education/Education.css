@@ -92,15 +92,6 @@
   margin-top: 50px;
 }
 
-.timeline-date {
-  margin: 0;
-  font-size: 1.2em;
-  color: #333;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .timeline-title {
   margin-top: 10px;
@@ -129,6 +120,27 @@
 .vertical-timeline-element-subtitle {
   color: #007d93;
 }
+.vertical-timeline-element-date.custom {
+  margin-right: 10px;
+}
+.timeline-date {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  background-color: #FFD95A;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.custom-date-style .vertical-timeline-element-date {
+    font-size: 18px;
+    margin-right: 80px;
+}
+
 
 .cv a {
   display: inline-block;

@@ -38,12 +38,12 @@ const Education = () => {
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              className="vertical-timeline-element--education"
+              className="vertical-timeline-element--education custom-date-style"
               date="2019 - 2021"
               iconStyle={{ background: '#FFD95A', color: '#fff' }}
               icon={<FaGraduationCap />}
             >
-              <h3 className="vertical-timeline-element-title">Mathematics, Physics, and Engineering Sciences</h3>
+                          <h3 className="vertical-timeline-element-title">Mathematics, Physics, and Engineering Sciences</h3>
               <h4 className="vertical-timeline-element-subtitle">Preparatory Classes</h4>
               <p>
                 Lycée Ibn Timiya, Marrakesh | Lycée Lissane Eddine Ibn Khatib, Laayoune

@@ -13,7 +13,7 @@ function Projects() {
     <div className="project-section">
       <Particle />
       <div className="container">
-        <h1 style={{ fontSize: "2.6em", textAlign: "center", position: "relative" }}>
+        <h1 style={{ fontSize: "2.6em", textAlign: "center", position: "relative",marginTop:"50px" }}>
       My Recent <span className="unique"> Works </span> 
       <span
         className="underline"
