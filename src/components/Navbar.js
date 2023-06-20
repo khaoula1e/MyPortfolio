@@ -54,6 +54,10 @@ function Navbar() {
             onClick={() => {
               setIsNavExpanded(!isNavExpanded);
             }}
+// style={{
+//   marginTop: !isHome ? "-300px" : "10px", // Modify the marginTop property based on isHome
+//   marginRight: !isHome ? 0 : "20px", // Modify the marginRight property based on isHome
+// }}
           >
             <FaBars />
           </button>

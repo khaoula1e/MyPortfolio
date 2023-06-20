@@ -315,3 +315,8 @@
     display: block;
   }
 }
+/* Styles for the secondary button
+button.responsive.secondary {
+  margin-top: 0;
+  margin-right: 5px;
+} */
